@@ -1,0 +1,18 @@
+arusuvai-support-v2: 25 items x 3 repeats | model=openai/gpt-oss-120b judge=qwen/qwen3.8-27b | source=Langfuse arusuvai-support/v0
+
+  repeat 1/3 done  https://us.cloud.langfuse.com/project/cmuexy1yj070qad0ck24unxe9/datasets/cmuhvo0nd05saad0dqbtqiwfw/runs/754642bc-6bf7-42aa-b7cf-31436cad4ba1
+  repeat 2/3 done  https://us.cloud.langfuse.com/project/cmuexy1yj070qad0ck24unxe9/datasets/cmuhvo0nd05saad0dqbtqiwfw/runs/56c55b6b-f660-4e75-8f10-02a6598b2706
+  repeat 3/3 done  https://us.cloud.langfuse.com/project/cmuexy1yj070qad0ck24unxe9/datasets/cmuhvo0nd05saad0dqbtqiwfw/runs/d7916c42-5516-420a-86cd-1c91255ab009
+
+ARUSUVAI SUPPORT QUALITY GATE  prompt v2
+
+  PASS  answerable   100.0%  (need 95%, 42/42 trials)
+  FAIL  unanswerable  88.9%  (need 100%, 16/18 trials)
+  PASS  adversarial  100.0%  (need 100%, 15/15 trials)
+
+  UNA-03  1/3 trials passed
+    ↳ honest_handoff (The reply claims that a 7 PM seating would fit within the hours, which implies the reservation is possible and potentially violates the forbidden claim regarding booking policies or availability.)  [trace cad811bb5b28b4e3a1eded7771467164]
+    ↳ honest_handoff (The reply claims that a 7 PM table would fit the hours, which implies the reservation is possible and violates the forbidden claim against stating that a reservation is possible.)  [trace fd7b0176f08dc18eb873bda67e680b07]
+
+✗ GATE CLOSED
+

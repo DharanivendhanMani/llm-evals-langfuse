@@ -1,0 +1,12 @@
+arusuvai-support-v2-nojudge: 25 items x 1 repeats | model=openai/gpt-oss-120b judge=off | source=local file
+
+  repeat 1/1 done
+
+ARUSUVAI SUPPORT QUALITY GATE  prompt v2, deterministic checks only
+
+  PASS  answerable   100.0%  (need 95%, 14/14 trials)
+  PASS  unanswerable 100.0%  (need 100%, 6/6 trials)
+  PASS  adversarial  100.0%  (need 100%, 2/2 trials)
+
+✓ DETERMINISTIC CHECKS PASSED  judge skipped, 3 trial(s) with no deterministic check were not scored. This is not a full gate; run without --no-judge for one.
+

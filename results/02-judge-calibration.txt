@@ -1,0 +1,4 @@
+judge=qwen/qwen3.8-27b  samples=16  human-labelled=0  (falling back to AI author labels: smoke test only)
+
+
+agreement 16/16
