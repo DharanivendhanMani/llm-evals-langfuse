@@ -99,7 +99,12 @@ TOOLS = [
             "holiday notes. Optionally pass a weekday name or an ISO date (YYYY-MM-DD) to look at one day.",
             "parameters": {
                 "type": "object",
-                "properties": {"day": {"type": "string", "description": "e.g. 'Saturday' or '2026-09-30'"}},
+                "properties": {
+                    "day": {
+                        "type": ["string", "null"],
+                        "description": "e.g. 'Saturday' or '2026-09-30'. Omit it to get the whole week.",
+                    }
+                },
             },
         },
     },
